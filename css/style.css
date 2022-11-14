@@ -1,0 +1,59 @@
+body img{
+    width: 100%;
+    position: relative;
+}
+body .input{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+body{
+    filter: grayscale(0);
+    overflow: hidden;
+}
+.info{
+    width: 20%;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    text-align: center;
+}
+#info-icon{
+    top: 80px;
+    right: 50px;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+#mode{
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.group-inp{
+    width: 15rem;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.yes{
+    cursor: pointer;
+    width: 3rem;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(33, 207, 33);
+}
+.no{
+    cursor: pointer;
+    width: 8rem;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(235, 8, 8);
+}
